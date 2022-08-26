@@ -1,0 +1,225 @@
+/*BAWAAN*/
+html, body {
+   margin:0;
+   padding:0;
+}
+
+#logo{
+	margin-left: 20px;
+	margin-bottom: 3px;
+	margin-right: 4em;
+}
+
+.nav-link{
+	color: white;
+	margin-right: 3px;
+	opacity: 93%;
+}
+
+.nav-link:hover{
+	opacity: 50%;
+}
+
+#instagram{
+	margin-right: 10px;
+	opacity: 90%;
+}
+
+#search{
+	opacity: 90%;
+}
+
+#instagram:hover{
+	opacity: 50%;
+}
+
+#search:hover{
+	opacity: 50%;
+}
+
+#particles-js{
+	height: 440px;
+	background:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.7)), url(../assets/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#progress{
+	z-index: 2;
+	margin-top: -250px;
+	color: white;
+	opacity: 80%;
+	text-align: center;
+	animation: fadeIn 3.5s;
+		flex-direction: column;
+}
+/*awal kontak */
+.kontak{
+	margin-top: 11rem;
+	display: flex;
+	flex-direction:row ;
+	flex-wrap: nowrap;
+	justify-content: center;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	padding: 2rem;
+	animation: slideDownFade 1.5s;
+}
+
+
+
+.kiri{
+	display: flex;
+	border-right: 2px solid white;
+	flex-direction:column ;
+	background-color:#202020;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 20px;
+	max-width: 50%;
+}
+.kiri h2{
+	font-family:sans-serif;
+	text-align: center;
+}
+.kiri p{
+	padding-top: 2px;
+	text-align: center;
+	font-size: 10px;
+}
+.kiri img{
+	align-items: center;
+}
+.sosmed{
+	display: flex;
+	flex-direction: row;
+	margin-left: 3rem;
+}
+.sosmed i{
+	font-size: 14px;
+	padding: 6px;
+}
+
+.sosmed i :hover{
+	opacity: 50%;
+}
+.sosmed a{
+	z-index: 2;
+	color: white;
+	opacity: 100%;
+	text-decoration: none;
+}
+
+.kanan{
+	background-color: rgb(0, 0, 0);
+	padding-left: 2px;
+	max-width: 40%;
+}
+.kanan img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.foto {
+	display:flex;
+	flex-direction: row;
+}
+
+.overlay {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgb(0, 0, 0,0);
+	z-index: 9999;
+	transition: .8s;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.overlay:target{
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background: rgb(0, 0, 0,.6);
+}
+
+.overlay img {
+	max-height: 100%;
+	max-width: 50%;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0,.5);
+
+}
+
+.overlay:target img{
+	animation: zoomdanfade 1s;
+
+}
+.overlay .close{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -20px;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	border: 1px solid white;
+	line-height: 14px;
+	opacity: 100%;
+}
+
+
+/*animasi*/
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes zoomdanfade{
+	0%{
+		transform: scale(0);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes slideDownFade{
+	0%{
+		opacity: 0;
+		margin-top: -10px;
+
+	}
+
+	100%{
+		opacity: 1;
+		margin-top: 200;
+	}
+}
+
+
+
+#progress:hover{
+	opacity: 100%;
+	transition: 100ms;
+}
+
+#copyright{
+	position:relative;
+  	min-height: 100%;
+	opacity: 85%;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 15px;
+}
+/*BAWAAN END*/
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kontak - Website Progress</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/styleKontak.css">
+</head>
+
+<bo>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html">
+	    	<img src="assets/progress.png" alt="logo progress" width="40" id="logo">
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav fw-semibold">
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html">HOME</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html#visiMisi">VISI & MISI</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="profile.html">PROFILE UKM</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html#kegiatan">KEGIATAN TAHUNAN</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="pengurus.html">BAGAN PENGURUS</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="kontak.html">KONTAK</a>
+	        </li>
+	      </ul>
+	    </div>
+	    <div class="me-4">
+	        <a onclick="validasi()" href="https://instagram.com/progress.stikombali"><img src="assets/instagram.png" id="instagram" alt="instagram progress" width="22"></a>
+	    </div>
+	    <div class="me-4">
+	        <a onclick="alert('Coming Soon Buddy!')" href="#"><img src="assets/search.png" id="search" alt="search" width="22"></a>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Hero -->
+		<div id="particles-js"></div>
+		<div class="display-3 fw-semibold" id="progress">KONTAK PROGRESS</div>
+	<!-- Hero End -->
+
+
+	<!-- Kontak -->
+	<div class="kontak" id="kontaks">
+		<div class="kiri">
+			<h2>Contact On</h2><br>
+			<img src="assets/gabungan.png" alt="">
+			<div class="sosmed">
+			<i class="fa-brands fa-instagram"><a href="https://www.instagram.com/progress.stikombali/"> progress.stikombali</a></i><br>
+			<i class="fa-regular fa-envelope"><a href="https://www.instagram.com/progress.stikombali/"> example@gmail.com</a></i><br>
+			<i class="fa-brands fa-whatsapp"><a href="https://www.instagram.com/progress.stikombali/"> +62 2131 1112 321</a></i><br>
+			</div>
+			<p>Jl. Raya Puputan No.86, Dangin Puri Klod, Kec. Denpasar Tim., Kota Denpasar, Bali 80234</p>
+		</div>
+		<div class="kanan">
+			<div class="map"><a onclick="alert" href="https://goo.gl/maps/cU2U5nihoB2Qdg6V8" ><img src="assets/map.png" alt=""></a></div>
+			<div class="foto">
+				<a onclick="alert" href="#gedung1" ><img src="assets/gedung1.png" alt=""></a>
+				<div class="overlay" id="gedung1">
+					<a href="#kontaks" class="close">x close</a>
+					<img src="assets/gedung1.png" alt="">
+				</div>
+				<a onclick="alert" href="#gedung2" ><img src="assets/gedung2.png" alt=""></a>
+				<div class="overlay" id="gedung2">
+					<a href="#kontaks" class="close">x close</a>
+					<img src="assets/gedung2.png" alt="">
+				</div>
+				<a onclick="alert" href="#gedung3" ><img src="assets/gedung3.png" alt=""></a>
+				<div class="overlay" id="gedung3">
+					<a href="#kontaks" class="close">x close</a>
+					<img src="assets/gedung3.png" alt="">
+				</div>
+			</div>
+		
+
+		
+		</div>
+	</div>
+	
+	<!-- Kontak End -->
+	
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white pb-2">
+		<br><p class="display-6 fw-normal text-center" id="copyright">&copy Copyright <strong> PROGRESS ITB STIKOM BALI 2022</strong></p>
+	</footer>
+	<!-- Footer End -->
+
+
+	<!-- Alert Function -->
+	<script type="text/javascript">
+		function validasi()
+		{
+			var hasil = confirm('Apa anda yakin menuju ke Instagram Progress?');
+			if (hasil == false) {
+				event.preventDefault();
+			}
+		}
+	</script>
+	<!-- Alert Function End -->
+
+	<!-- Particle JS -->
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	<!-- ikon Js-->
+	<script src="https://kit.fontawesome.com/80f8815232.js" crossorigin="anonymous"></script>
+</body>
+</html>

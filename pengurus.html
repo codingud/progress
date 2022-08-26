@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengurus - Website Progress</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stylePengurus.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/progress.png" alt="logo progress" width="40" id="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#visiMisi">VISI & MISI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">PROFILE UKM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#kegiatan">KEGIATAN TAHUNAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pengurus.html">BAGAN PENGURUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">KONTAK</a>
+            </li>
+          </ul>
+        </div>
+        <div class="me-4">
+          <a onclick="validasi()" href="https://instagram.com/progress.stikombali"><img src="assets/instagram.png" id="instagram" alt="instagram progress" width="22" /></a>
+        </div>
+        <div class="me-4">
+          <a onclick="alert('Coming Soon Buddy!')" href="#"><img src="assets/search.png" id="search" alt="search" width="22" /></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero -->
+    <div id="particles-js"></div>
+    <div class="display-3 fw-semibold" id="progress">BAGAN PENGURUS</div>
+    <!-- Hero End -->
+
+    <!-- Pengurus -->
+    <div class="container margin-top-container">
+      <!-- Image View -->
+      <p class="title display-5 fw-semibold mb-4 animasifade">STRUKTUR ORGANISASI PENGURUS</p>
+      <div id="carouselExampleIndicators" class="animasifade carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators elemen">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/pengurus/pengurus.jpg" class="d-block w-100" alt="Error Gambar Pengurus" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pengurus/inti.jpg" class="d-block w-100" alt="Error Gambar Pengurus Inti" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pengurus/divisi1.jpg" class="d-block w-100" alt="Error Gambar Pengurus Divisi I" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pengurus/divisi2.jpg" class="d-block w-100" alt="Error Gambar Pengurus Divisi II" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pengurus/divisi3.jpg" class="d-block w-100" alt="Error Gambar Pengurus Divisi III" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Card List-->
+      <!-- Card 1 -->
+      <div class="card-group mt-4 mb-1 text-center elemen">
+        <div class="card text-bg-secondary">
+          <div class="card-body">
+            <h5 class="card-header">Ketua Umum</h5>
+            <p class="card-text">Ketua Umum akan berdanggung jawab dalam memimpin jalannya UKM PROGRESS selama setahun kedepan.</p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary elemen">
+          <div class="card-body">
+            <h5 class="card-header">Wakil Ketua</h5>
+            <p class="card-text">Wakil dari ketua kita akan membantu ketua kita untuk memimpin jalannya UKM PROGRESS selama setahun kedepan</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card-group mt-1 mb-1 text-center elemen">
+        <div class="card text-bg-secondary">
+          <div class="card-body">
+            <h5 class="card-header">Sekretaris</h5>
+            <p class="card-text">Sekretaris akan bertanggung jawab dalam surat menyurat serta prasarana kesekretariatan dalam jalannya UKM PROGRESS selama setahun kedepan.</p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary elemen">
+          <div class="card-body">
+            <h5 class="card-header">Koordinator Jimbaran</h5>
+            <p class="card-text">Koordinator UKM PROGRESS akan mengkoordinasikan kegiatan UKM PROGRESS untuk anggota-anggota kita di ITB STIKOM Bali Jimbaran.</p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary elemen">
+          <div class="card-body">
+            <h5 class="card-header">Bendahara</h5>
+            <p class="card-text">Bendahara kita akan Bertanggung jawab dengan keuangan di UKM PROGRESS selama setahun kedepan.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card-group mb-4 text-center elemen">
+        <div class="card text-bg-secondary">
+          <div class="card-body">
+            <h5 class="card-header">DIVISI I</h5>
+            <p class="card-text">
+              Divisi I dari UKM PROGRESS akan bertanggung jawab dalam pengajaran dan pengembangan yang akan terlaksana selama setahun kedepan di UKM PROGRESS. Mereka jago loh dalam bidangnya masing masing, jika kalian kurang paham soal
+              ngoding bisa tanya mereka ya.
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary elemen">
+          <div class="card-body">
+            <h5 class="card-header">DIVISI II</h5>
+            <p class="card-text">
+              Divisi II dari UKM PROGRESS akan bertanggung jawab dalam sarana dan perlengkapan yang di perlukan dalam pelaksanaan UKM PROGRESS selama setahun kedepan. Mereka juga menjaga barang barang milik UKM PROGRESS maupun barang yang
+              kita pinjam dengan baik, jadi jangan ragu dengan mereka.
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary elemen">
+          <div class="card-body">
+            <h5 class="card-header">DIVISI III</h5>
+            <p class="card-text">Divisi III dari UKM PROGRESS siap membantu dalam bidang desain, dokumentasi, serta hubungan masyarakat. Mereka juga yang akan mengurus akun media sosial dari UKM PROGRESS.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Table -->
+      <table class="table table-bordered table-dark elemen mb-5">
+        <thead>
+          <tr class="text-center font-title">
+            <td colspan="4" class="border-bottom">
+              Pengurus UKM PROGRESS <br />
+              Periode 2021 - 2022
+            </td>
+          </tr>
+          <tr class="text-center">
+            <td>NO</td>
+            <td>NAMA</td>
+            <td>PANGGILAN</td>
+            <td>JABATAN</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-active">
+            <td>1</td>
+            <td>I Made Hermanto</td>
+            <td>Herman</td>
+            <td>Ketua Umum</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Anak Agung Ngurah Agung Deva Pramana Ariangga</td>
+            <td>Deva</td>
+            <td>Wakil Ketua</td>
+          </tr>
+          <tr class="table-active">
+            <td>3</td>
+            <td>Albert Fernando</td>
+            <td>Albert</td>
+            <td>Koordinator Jimbaran</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Kadek Sri Nopiani</td>
+            <td>Noviani</td>
+            <td>Sekretaris 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>5</td>
+            <td>Ni Putu Devi Putrisari</td>
+            <td>Devi</td>
+            <td>Sekretaris 2</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Wayan Evan Ada Munayana</td>
+            <td>Evan</td>
+            <td>Bendahara 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>7</td>
+            <td>Galang Prabasanti Januarta</td>
+            <td>Galang</td>
+            <td>Bendahara 2</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Tora Wijaya</td>
+            <td>Tora</td>
+            <td>Koordinator Divisi 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>9</td>
+            <td>Ketut Widi Artawan</td>
+            <td>Widi</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Maytri Cagie Mustika</td>
+            <td>Cagie</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>11</td>
+            <td>Putu Agas Darmawa</td>
+            <td>Agas</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>I Putu Dwi Payana</td>
+            <td>Dwi</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>13</td>
+            <td>I Komang Mandala Putra</td>
+            <td>Mandala</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Anak Agung Gede Agung Aditya Widnyana</td>
+            <td>Gung Alit</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>15</td>
+            <td>Gede Ariel Septian Pratama</td>
+            <td>Ariel</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>I Putu Putra Budha Lantara</td>
+            <td>Budha</td>
+            <td>Anggota Divisi 1</td>
+          </tr>
+          <tr class="table-active">
+            <td>17</td>
+            <td>Ngurah Agung Yudistira</td>
+            <td>Yudistira</td>
+            <td>Koordinator Divisi 2</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>I Putu Bayu Adnyana</td>
+            <td>Bayu</td>
+            <td>Anggota Divisi 2</td>
+          </tr>
+          <tr class="table-active">
+            <td>19</td>
+            <td>I Gede Praditya Maha Wiguna</td>
+            <td>Praditya</td>
+            <td>Anggota Divisi 2</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>I Gede Agus Satya Pratama</td>
+            <td>Satya</td>
+            <td>Anggota Divisi 2</td>
+          </tr>
+          <tr class="table-active">
+            <td>21</td>
+            <td>I Made Gana Wiranjaya Kesuma</td>
+            <td>Gana</td>
+            <td>Koordinator Divisi 3</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>Gusti Ayu Putu Kesari Purnama Yani</td>
+            <td>Kesari</td>
+            <td>Anggota Divisi 3</td>
+          </tr>
+          <tr class="table-active">
+            <td>23</td>
+            <td>Gede Bagus Sedana Yoga</td>
+            <td>Bagus</td>
+            <td>Anggota Divisi 3</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Komang Inge Permata Sari</td>
+            <td>Inge</td>
+            <td>Anggota Divisi 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pengurus End -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pb-2">
+      <br />
+      <p class="display-6 fw-normal text-center" id="copyright">&copy Copyright <strong> PROGRESS ITB STIKOM BALI 2022</strong></p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Alert Function -->
+    <script type="text/javascript">
+      function validasi() {
+        var hasil = confirm("Apa anda yakin menuju ke Instagram Progress?");
+        if (hasil == false) {
+          event.preventDefault();
+        }
+      }
+    </script>
+    <!-- Alert Function End -->
+
+    <!-- Particle JS -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/animasi.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+/*BAWAAN*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  margin-left: 20px;
+  margin-bottom: 3px;
+  margin-right: 4em;
+}
+
+.nav-link {
+  color: white;
+  margin-right: 3px;
+  opacity: 93%;
+}
+
+.nav-link:hover {
+  opacity: 50%;
+}
+
+#instagram {
+  margin-right: 10px;
+  opacity: 90%;
+}
+
+#search {
+  opacity: 90%;
+}
+
+#instagram:hover {
+  opacity: 50%;
+}
+
+#search:hover {
+  opacity: 50%;
+}
+
+#particles-js {
+  height: 440px;
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.7)), url(../assets/hero.jpg);
+  background-size: cover;
+}
+
+#progress {
+  z-index: 2;
+  margin-top: -250px;
+  color: white;
+  opacity: 80%;
+  text-align: center;
+  animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#progress:hover {
+  opacity: 100%;
+  transition: 100ms;
+}
+
+#copyright {
+  position: relative;
+  min-height: 100%;
+  opacity: 85%;
+  text-align: left;
+  text-indent: 2em;
+  font-size: 15px;
+}
+
+/*BAWAAN END*/
+
+/* Pengurus */
+.margin-top-container {
+  margin-top: 200px;
+}
+
+body {
+  background-color: darkgray;
+}
+.title {
+  text-align: center;
+  color: black;
+}
+.margin-top {
+  margin-top: 2000px;
+}
+tr,
+td {
+  text-align: center;
+}
+thead tr td {
+  font-weight: bold;
+}
+.font-title {
+  font-size: 20px;
+}
+.title-divisi {
+  text-align: center;
+}
+
+/* Pengurus */
+
+/* Animation */
+@keyframes show {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.elemen {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.tampil {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+@keyframes slideDownFade{
+	0%{
+		opacity: 0;
+		margin-top: -40px;
+
+	}
+
+	100%{
+		opacity: 1;
+		margin-top: 200;
+	}
+}
+
+.animasifade{
+  animation: slideDownFade 1.7s;
+}

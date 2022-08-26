@@ -1,0 +1,138 @@
+html, body {
+   margin:0;
+   padding:0;
+}
+
+#logo{
+	margin-left: 20px;
+	margin-bottom: 3px;
+	margin-right: 4em;
+}
+
+.nav-link{
+	color: white;
+	margin-right: 3px;
+	opacity: 93%;
+}
+
+.nav-link:hover{
+	opacity: 50%;
+}
+
+#instagram{
+	margin-right: 10px;
+	opacity: 90%;
+}
+
+#search{
+	opacity: 90%;
+}
+
+#instagram:hover{
+	opacity: 50%;
+}
+
+#search:hover{
+	opacity: 50%;
+}
+
+#particles-js{
+	background:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.7)), url(../assets/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+#progress{
+	z-index: 2;
+	margin-top: -450px;
+	color: white;
+	opacity: 78%;
+	text-align: center;
+	animation: fadeIn 3.5s ease;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+#progress:hover{
+	opacity: 100%;
+	transition: 100ms;
+}
+
+#about{
+	margin-top: 29em;
+	text-align: center;
+}
+
+#judul{
+	margin-left: -15px;
+}
+
+#garis{
+	margin-top: -15px;
+	margin-left: -15px;
+}
+
+#text-progress{
+	height: 430px;
+	width: 800px;
+	margin: auto;
+	line-height: 40px;
+}
+
+#visiMisi{
+	text-align: center;
+	height: 500px;
+	width: 80em;
+	margin: auto;
+	line-height: 30px;
+}
+
+#kegiatan{
+	text-align: center;
+	height: 650px;
+	width: 80em;
+	margin: 120px auto;
+	line-height: 30px;
+}
+
+#fotoEvent img{
+	height: 255px;
+	transition: transform .4s ease;
+	overflow: hidden;
+}
+
+#fotoEvent img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+	border-radius: 1%;
+}
+
+.elemen{
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.tampil{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+#copyright{
+	position:relative;
+  	min-height: 100%;
+	opacity: 85%;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 15px;
+}

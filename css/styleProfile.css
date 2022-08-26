@@ -1,0 +1,132 @@
+/*BAWAAN*/
+html, body {
+   margin:0;
+   padding:0;
+}
+
+#logo{
+	margin-left: 20px;
+	margin-bottom: 3px;
+	margin-right: 4em;
+}
+
+.nav-link{
+	color: white;
+	margin-right: 3px;
+	opacity: 93%;
+}
+
+.nav-link:hover{
+	opacity: 50%;
+}
+
+#instagram{
+	margin-right: 10px;
+	opacity: 90%;
+}
+
+#search{
+	opacity: 90%;
+}
+
+#instagram:hover{
+	opacity: 50%;
+}
+
+#search:hover{
+	opacity: 50%;
+}
+
+#particles-js{
+	height: 440px;
+	background:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.7)), url(../assets/hero.jpg);
+	background-size: cover;
+}
+
+#progress{
+	z-index: 2;
+	margin-top: -270px;
+	color: white;
+	opacity: 80%;
+	text-align: center;
+	animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+#progress:hover{
+	opacity: 100%;
+	transition: 100ms;
+}
+
+#copyright{
+	position:relative;
+  	min-height: 100%;
+	opacity: 85%;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 15px;
+}
+
+#judul{
+    text-align: center;
+    margin-top: 300px;
+    opacity: 90%;
+    animation: show 2.5s ease;
+}
+
+#garis{
+    margin-top: -30px;
+	margin-left: -15px;
+    margin-bottom: -5px;
+}
+
+@keyframes show{
+	from{
+		transform: translateY(-50px);
+	    opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+	    opacity: 1;;
+	}
+}
+
+.elemen{
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.tampil{
+	transform: translateY(0px);
+	opacity: 1;
+}
+/*BAWAAN END*/
+
+#kelas{
+    text-align: center;
+	height: fit-content;
+	width: 80em;
+	margin: 40px auto 90px;
+	line-height: 30px;
+}
+
+#kelas img{
+    transition: transform .4s ease;
+    overflow: hidden;
+}
+
+#kelas img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+	border-radius: 1%;
+}
